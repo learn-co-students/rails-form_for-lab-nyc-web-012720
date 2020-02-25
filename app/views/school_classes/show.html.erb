@@ -1,0 +1,8 @@
+<h1>Show School Class </h1>
+<h3>  <%= @schoolclass.title %>  </h3>
+<h3>  <%= @schoolclass.room_number %>  </h3>
+<%= link_to 'Go back',  school_classes_path %>
+<%= button_to "Delete", school_class_path(@schoolclass), method: :delete %>
+
+
+
